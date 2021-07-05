@@ -3,4 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    print("hi ivan, this is print method...")
     return "Hello, World!"
